@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald';
+}
+
+/* PORTADA */
+
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	border-bottom: 1px solid black;
+}
+
+.navegation {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.navegation a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.portada{
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+  	background-repeat: no-repeat;
+	width: 100%;
+	height: 350px;
+}
+
+.portada h1{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	padding-top: 160px;
+}
+
+.portada h4{
+	color: #fff;
+	text-align: center;
+}
+
+/* SOBRE MI */
+
+.sobre-mi{
+	background-image: url(../images/tile1.png);
+	
+}
+
+.title-section{
+	color: #8F03E3;
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 40px;
+}
+
+.picture{
+	
+	text-align: center;
+}
+
+.picture img{
+	width: 230px;
+	border: 1px solid gray;
+    padding: 1px;
+    margin-top: 73%;
+    margin-bottom: 30%;
+}
+
+.text-about{
+    color: black;
+}
+
+/* COSAS FAVORITAS */
+
+.favoritas{
+	width: 100%;
+	height: 500px;
+}
+.favoritas h4{
+	color: #8F03E3;
+}
+.sub-title{
+	color: black;
+	text-align: center;
+
+}
+
+.container-picture{
+	
+	text-align: center;
+}
+
+.container-picture img{
+	
+  	border-radius: 50%;
+  	border: 1px solid black;
+ 	width:100%;
+  	padding:4px;
+}
+
+
+/* CONTACTO */
+
+.contacto{
+	background-image: url(../images/tile2.png);
+	width: 100%;
+	height: 450px;
+}
+
+.container-redes{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.container-redes img{
+	width: 140px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
